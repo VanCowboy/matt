@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { IvdBodyComponent } from './ivd-body/ivd-body.component';
 import { FameBodyComponent } from './fame-body/fame-body.component';
+import { NewMergeComponent } from './new-merge/new-merge.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FameBodyComponent } from './fame-body/fame-body.component';
     HeaderComponent,
     FooterComponent,
     IvdBodyComponent,
-    FameBodyComponent
+    FameBodyComponent,
+    NewMergeComponent
   ],
   imports: [
     BrowserModule
